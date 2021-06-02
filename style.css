@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: 'Mate SC', serif;
+    height: 100vh;
+    background-image: url(/image/mix.jpg);
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 8vh;
+    position: sticky;
+    z-index: 12;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    margin: 0 900px 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper :hover{
+    color: hotpink;
+    font-weight: bolder;
+    font-size: large;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+nav{
+    width: 300px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li :hover{
+    color : rgb(245, 156, 72);
+    font-weight: bolder;
+}
