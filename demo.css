@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg-color: rgb(40, 116, 240)
+}
+header{
+    background: var(--main-bg-color);
+    color: white;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 147px;
+    padding: 0 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width: 331px;
+    height: 21px;
+    border-radius: 3px;
+    margin: 0 10px 0 80px;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid rgb(170, 170, 240);
+    border-radius: 5px;
+    background: var(--main-bg-color);
+    cursor: pointer;
+    font-weight: 900px;
+}
+/* .searchbar button{
+    
+} */
+nav ul li{
+    padding: 0 23px;
+    list-style: none;
+}
+.container{
+    padding: 10px auto;
+}
+.banner{
+     margin: 10px auto; 
+    max-width: 1300px;
+}
+footer{
+    height: 4vh;
+    background: var(--main-bg-color);
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 4vh;
+}
+main{
+    min-height: calc(100vh - 88px - 4vh);
+}
+.subcontent{
+        display: flex;
+        /* background-color: #e5ebf51a; */
+}
+.firstcontent{
+    display: flex;
+    
+}
+.heading{
+    display: flex;
+    height: 35px;
+    width: 1600px;
+    margin: 5px 109px;
+    line-height: 30px;
+    justify-content: center;
+    
+}
+.jtcf{
+    align-self: flex-start;
+    font-size: 14px;
+}
+.heading button{
+    margin: 4px 0 0 1080px;
+    background: var(--main-bg-color);
+    height: 26px;
+    width: 76px;
+}
+.heading button :hover {
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    margin: 2px 109px;
+    padding: 5px;
+    height: 300px;
+}
+.firstad,.secondad,.thirdad, .fourthad, .fifthad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 238px;
+    margin: 2px 5px;
+    padding: 8px 4px;
+}
+.firstline{
+
+}
+.secondline{
+    color: green;
+}
+.thirdline{
+    color: grey;
+}
